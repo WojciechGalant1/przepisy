@@ -16,7 +16,7 @@ class RecipeController extends Controller
 {
     public function index(): Response
     {
-        $recipes = Recipe::all(); 
+        $recipes = Recipe::all();
 
         return Inertia::render('RecipesIndex', [
             'recipes' => $recipes
@@ -48,7 +48,7 @@ class RecipeController extends Controller
             'title' => $validatedData['title'],
             'description' => $validatedData['description'],
             'type' => $validatedData['type'],
-            'image_path' => $validatedData['image_path'], 
+            'image_path' => $validatedData['image_path'],
             'user_id' => Auth::id(), // ID zalogowanego użytkownika
         ]);
         $recipe->save();
