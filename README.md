@@ -6,7 +6,7 @@
 
 ## Funkcjonalności
 
-<div style="font-weight: bold; margin-bottom: 10px;>Dodawanie Przepisów</div>
+### Dodawanie Przepisów
 Użytkownicy mogą dodawać nowe przepisy wraz z:
 
 - Tytułem
@@ -15,14 +15,14 @@ Użytkownicy mogą dodawać nowe przepisy wraz z:
 - Rodzajem (np. śniadanie, obiad, deser itp.)
 - Składnikami, ilościami i jednostką (np. gram, litr, sztuka itp.)
 
-<div style="font-weight: bold; margin-bottom: 10px;>Ocenianie Przepisów</div>
+### Ocenianie Przepisów 
 Użytkownicy mają możliwość oceniania przepisów innych użytkowników w skali od 1 do 5. System oblicza średnią ocen przepisu.
 
-<div style="font-weight: bold; margin-bottom: 10px;>Komentarze</div>
+### Komentarze
 Użytkownicy mogą dodawać i wyświetlać komentarze do przepisów.
 
-<div style="font-weight: bold; margin-bottom: 10px;>Wyszukiwanie Przepisów</div>
+### Wyszukiwanie Przepisów
 Użytkownicy mogą przeszukiwać bazę danych przepisów za pomocą paska wyszukiwania.
 
-<div style="font-weight: bold; margin-bottom: 10px;>Profil Użytkownika</div>
+###  Profil Użytkownika
 Każdy użytkownik ma swój profil, gdzie może zobaczyć dodane przepisy oraz edytować swoje dane (login, email, hasło) i usunąć konto.
