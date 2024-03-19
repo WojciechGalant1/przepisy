@@ -1,23 +1,3 @@
-<style>
-  /* Dodaj style dla opisu */
-  .project-description {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    margin-bottom: 20px;
-  }
-
-  .functionality {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .instructions {
-    font-style: italic;
-    margin-top: 20px;
-  }
-</style>
-
 # Laravel Vue.js Inertia.js Przepisy Projekt
 
 <div class="project-description">
@@ -36,18 +16,13 @@ Użytkownicy mogą dodawać nowe przepisy wraz z:
 - Składnikami, ilościami i jednostką (np. gram, litr, sztuka itp.)
 
 <div class="functionality">Ocenianie Przepisów</div>
-Użytkownicy mają możliwość oceniania przepisów innych użytkowników w skali od 1 do 5.
+Użytkownicy mają możliwość oceniania przepisów innych użytkowników w skali od 1 do 5. System oblicza średnią ocen przepisu.
 
-...
+<div class="functionality">Komentarze</div>
+Użytkownicy mogą dodawać i wyświetlać komentarze do przepisów.
 
-## Instrukcje uruchomienia
+<div class="functionality">Wyszukiwanie Przepisów</div>
+Użytkownicy mogą przeszukiwać bazę danych przepisów za pomocą paska wyszukiwania.
 
-<div class="instructions">
-  Sklonuj repozytorium z GitHub.
-  Zainstaluj zależności PHP przy użyciu Composer: composer install.
-  Zainstaluj zależności JavaScript przy użyciu npm: npm install.
-  Skonfiguruj plik .env, ustawiając odpowiednie parametry bazy danych i innych ustawień.
-  Uruchom migracje bazy danych: php artisan migrate.
-  Uruchom serwer deweloperski: php artisan serve.
-  Uruchom kompilację zasobów JavaScript: npm run dev.
-</div>
+<div class="functionality">Profil Użytkownika</div>
+Każdy użytkownik ma swój profil, gdzie może zobaczyć dodane przepisy oraz edytować swoje dane (login, email, hasło) i usunąć konto.
